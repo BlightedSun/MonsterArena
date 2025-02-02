@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\woven\\Documents\\Projects\\MonsterFight\\MonsterFight\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE143A4E-95CC-4EB8-A3B4-327281BC25F4}|MonsterFight.csproj|c:\\users\\woven\\documents\\projects\\monsterfight\\monsterfight\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE143A4E-95CC-4EB8-A3B4-327281BC25F4}|MonsterFight.csproj|solutionrelative:gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE143A4E-95CC-4EB8-A3B4-327281BC25F4}|MonsterFight.csproj|c:\\users\\woven\\documents\\projects\\monsterfight\\monsterfight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE143A4E-95CC-4EB8-A3B4-327281BC25F4}|MonsterFight.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE143A4E-95CC-4EB8-A3B4-327281BC25F4}|MonsterFight.csproj|c:\\users\\woven\\documents\\projects\\monsterfight\\monsterfight\\monsters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE143A4E-95CC-4EB8-A3B4-327281BC25F4}|MonsterFight.csproj|solutionrelative:monsters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE143A4E-95CC-4EB8-A3B4-327281BC25F4}|MonsterFight.csproj|c:\\users\\woven\\documents\\projects\\monsterfight\\monsterfight\\abilitylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE143A4E-95CC-4EB8-A3B4-327281BC25F4}|MonsterFight.csproj|solutionrelative:abilitylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE143A4E-95CC-4EB8-A3B4-327281BC25F4}|MonsterFight.csproj|c:\\users\\woven\\documents\\projects\\monsterfight\\monsterfight\\monsterlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE143A4E-95CC-4EB8-A3B4-327281BC25F4}|MonsterFight.csproj|solutionrelative:monsterlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\woven\\Documents\\Projects\\MonsterFight\\MonsterFight\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\woven\\Documents\\Projects\\MonsterFight\\MonsterFight\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T01:31:04.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameLogic.cs",
+              "DocumentMoniker": "C:\\Users\\woven\\Documents\\Projects\\MonsterFight\\MonsterFight\\GameLogic.cs",
+              "RelativeDocumentMoniker": "GameLogic.cs",
+              "ToolTip": "C:\\Users\\woven\\Documents\\Projects\\MonsterFight\\MonsterFight\\GameLogic.cs",
+              "RelativeToolTip": "GameLogic.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAADAAAACfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T01:54:23.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Monsters.cs",
+              "DocumentMoniker": "C:\\Users\\woven\\Documents\\Projects\\MonsterFight\\MonsterFight\\Monsters.cs",
+              "RelativeDocumentMoniker": "Monsters.cs",
+              "ToolTip": "C:\\Users\\woven\\Documents\\Projects\\MonsterFight\\MonsterFight\\Monsters.cs",
+              "RelativeToolTip": "Monsters.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwCAAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T01:32:08.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MonsterList.cs",
+              "DocumentMoniker": "C:\\Users\\woven\\Documents\\Projects\\MonsterFight\\MonsterFight\\MonsterList.cs",
+              "RelativeDocumentMoniker": "MonsterList.cs",
+              "ToolTip": "C:\\Users\\woven\\Documents\\Projects\\MonsterFight\\MonsterFight\\MonsterList.cs",
+              "RelativeToolTip": "MonsterList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T01:56:07.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AbilityList.cs",
+              "DocumentMoniker": "C:\\Users\\woven\\Documents\\Projects\\MonsterFight\\MonsterFight\\AbilityList.cs",
+              "RelativeDocumentMoniker": "AbilityList.cs",
+              "ToolTip": "C:\\Users\\woven\\Documents\\Projects\\MonsterFight\\MonsterFight\\AbilityList.cs",
+              "RelativeToolTip": "AbilityList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T01:57:27.531Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
