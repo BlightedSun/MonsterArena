@@ -22,6 +22,6 @@ enemyParty.Add("dragon");
 
 
 Console.WriteLine("Pick monster(s): ");
-GameLogic.PrintMonsterList();
+gameLogic.PrintMonsterList();
 
 Console.WriteLine("Type '1' to attack. Type 'exit' to quit program.");

@@ -12,10 +12,10 @@ namespace MonsterFight
         List<Ability> _abilities = new List<Ability>();
         List<Monster> _monsters = new List<Monster>();
 
-        
+        //constructor
         public GameLogic() 
         {
-            AddMonster(new Monster("dragon", 100, 10, 10, 10));
+            AddMonster(new Monster("Dragon", 100, 10, 10, 10));
             //_monsters.Add("dragon", new Monster("dragon", 100, 10, 10, 10));
             //name, hp, def, pwr, spd
 
@@ -28,7 +28,7 @@ namespace MonsterFight
         }
         
         
-        public static void AddMonster(List<Monster> _monsters, Monster monster)
+        public void AddMonster(Monster monster)
         {
             
             _monsters.Add(monster);
@@ -37,14 +37,14 @@ namespace MonsterFight
 
         public void AddAbility(Ability ability)
         {
-            //_abilities.Add(ability.Name, ability as Ability);
+            _abilities.Add(ability);
 
         }
 
 
-        public static void PrintMonsterList(List<Monster> monsters)
+        public void PrintMonsterList()
         {
-            foreach (var monster in monsters)
+            foreach (var monster in _monsters)
             {
                 Console.WriteLine($"Name: {monster.Name}, Health: {monster.Health}, Defense: {monster.Defense}, Power: {monster.Power}, Speed: {monster.Speed}");
             }
