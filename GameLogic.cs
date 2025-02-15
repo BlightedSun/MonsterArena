@@ -12,30 +12,37 @@ namespace MonsterFight
         List<Ability> _abilities = new List<Ability>();
         List<Monster> _monsters = new List<Monster>();
 
+
         //constructor
         public GameLogic() 
         {
-            AddMonster(new Monster("Dragon", 100, 10, 10, 10));
+            AddToMonsterList(new Monster("Dragon", 100, 10, 10, 10));
+            AddToMonsterList(new Monster("Kelpie", 75, 10, 10, 15));
             //_monsters.Add("dragon", new Monster("dragon", 100, 10, 10, 10));
             //name, hp, def, pwr, spd
 
-            AddAbility(new Ability("Fire Breath", 40, 100));
+            AddToAbilityList(new Ability("Fire Breath", 40, 100));
         
         
         
         
         
         }
-        
-        
-        public void AddMonster(Monster monster)
+
+        public void AddToPlayerList(Monster monster)
+        {
+
+            _monsters.Add(monster);
+
+        }
+        public void AddToMonsterList(Monster monster)
         {
             
             _monsters.Add(monster);
 
         }
 
-        public void AddAbility(Ability ability)
+        public void AddToAbilityList(Ability ability)
         {
             _abilities.Add(ability);
 
@@ -46,7 +53,7 @@ namespace MonsterFight
         {
             foreach (var monster in _monsters)
             {
-                Console.WriteLine($"Name: {monster.Name}, Health: {monster.Health}, Defense: {monster.Defense}, Power: {monster.Power}, Speed: {monster.Speed}");
+                Console.WriteLine($"Name: {monster.Name}, Health: {monster.MaxHealth}, Defense: {monster.Defense}, Power: {monster.Power}, Speed: {monster.Speed}");
             }
 
 
