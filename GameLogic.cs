@@ -9,15 +9,15 @@ namespace MonsterFight
 {
     public class GameLogic
     {
-        List<Ability> _abilities = new List<Ability>();
-        List<Monster> _monsters = new List<Monster>();
+        public List<Ability> _abilities = new List<Ability>();
+        public List<Monster> _monsters = new List<Monster>();
 
 
         //constructor
         public GameLogic() 
         {
-            AddToMonsterList(new Monster("Dragon", 100, 10, 10, 10));
-            AddToMonsterList(new Monster("Kelpie", 75, 10, 10, 15));
+            AddToMonsterList(new Monster("Dragon", 50, 3, 10, 10));
+            AddToMonsterList(new Monster("Kelpie", 25, 3, 10, 15));
             //_monsters.Add("dragon", new Monster("dragon", 100, 10, 10, 10));
             //name, hp, def, pwr, spd
 
@@ -29,12 +29,12 @@ namespace MonsterFight
         
         }
 
-        public void AddToPlayerList(Monster monster)
-        {
+        //public void AddToPlayerList(Monster monster)
+        //{
 
-            _monsters.Add(monster);
+        //    _monsters.Add(monster);
 
-        }
+        //}
         public void AddToMonsterList(Monster monster)
         {
             
