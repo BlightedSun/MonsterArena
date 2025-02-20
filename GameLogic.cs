@@ -18,6 +18,7 @@ namespace MonsterFight
         {
             AddToMonsterList(new Monster("Dragon", 50, 3, 10, 10));
             AddToMonsterList(new Monster("Kelpie", 25, 3, 10, 15));
+            AddToMonsterList(new Monster("Hellcat", 20, 3, 15, 30));
             //_monsters.Add("dragon", new Monster("dragon", 100, 10, 10, 10));
             //name, hp, def, pwr, spd
 
@@ -28,7 +29,7 @@ namespace MonsterFight
         
         
         }
-
+        //FIX THIS
         //public void AddToPlayerList(Monster monster)
         //{
 

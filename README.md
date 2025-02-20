@@ -27,7 +27,7 @@ STRETCH GOALS
 - elements added to monsters
 - monster levels (learn new abilities)
 - unlock new monsters for progression
-- save progression (save to local file - defult overwrite file)
+- save progression (save to local file - default overwrite file)
 - monster avatars
 - ability effects
 - looping combat music

@@ -27,7 +27,7 @@ namespace MonsterFight
         public bool IsDead { get { return CurrentHealth <= 0; } }
 
 
-        //consider difference in taking "get/set" out and in constructor typing "this.name = name"
+        
 
 
         //constructor for class monster
@@ -42,10 +42,7 @@ namespace MonsterFight
             this.random = new Random();
         }
 
-        //public override string ToString()
-        //{
-        //    return $"Name: {Name}, Health: {Health}, Defense: {Defense}, Power: {Power}, Speed: {Speed}";
-        //}
+        
 
         //change "attack" to an ABILITY 
         public void Attack(Monster enemy)

@@ -13,44 +13,36 @@ using System.Xml.Serialization;
 
 bool playGame = true;
 
-string playerMonster;
-string enemyMonster;
 
 GameLogic gameLogic = new GameLogic();  
 
-//creating the enemy and player parties. for now, enemy auto selects dragon
+//creating the enemy and player parties.
 List<Monster>_playerParty = new List<Monster>();
 
+//enemy takes Kelpie every time. for now
 List<Monster>_enemyParty = new List<Monster>();
 _enemyParty.Add(gameLogic._monsters.Find(monster => monster.Name == "Kelpie"));
 
+//may remove later
 Random random = new Random();
 
-
+//player picks their monster
 Console.WriteLine("Pick 1 monster by typing its name: ");
 gameLogic.PrintMonsterList();
 string playerchoice = Console.ReadLine();
 _playerParty.Add(gameLogic._monsters.Find(monster => monster.Name == playerchoice));
 
-
-
-//how do i create an instance of the monster they have chosen and assign it to the active monster?
-//do i create a method to create an instance of each type of monster? do i assign Monsters or strings to the playerParty list?
-
-
-//Console.WriteLine("Enemy picks Kelpie.");
-//    Monster activeEnemy = new Monster("Kelpie", 75, 10, 10, 15);
-//    Console.WriteLine("You pick Dragon.");
-//    Monster activePlayer = new Monster("Dragon", 100, 10, 10, 10);
-
+//announce monsters
 Console.WriteLine("Player has chosen " + _playerParty.First().Name);
 Console.WriteLine("Enemy has chosen " + _enemyParty.First().Name);
 
+
+//active monsters set to first in the list
 Monster activePlayer = _playerParty.First();
 Monster activeEnemy = _enemyParty.First();
 
 
-//who goes first?
+//who goes first? looks at speed 
 bool playerFirst = false;
 if (activePlayer.Speed >= activeEnemy.Speed)
 {
@@ -58,7 +50,7 @@ if (activePlayer.Speed >= activeEnemy.Speed)
 }
 
 
-
+//combat
 while (!activePlayer.IsDead && !activeEnemy.IsDead)
 {
 
@@ -89,8 +81,11 @@ while (!activePlayer.IsDead && !activeEnemy.IsDead)
 
     Console.WriteLine(activePlayer.Name + " HP = " + activePlayer.Hp + "  |  " + activeEnemy.Name + " HP = " + activeEnemy.Hp);
 
+    //break out if anyone is dead
     if (activePlayer.IsDead || activeEnemy.IsDead) break;
 
+    
+    //enemy picks random action
     Console.WriteLine("Enemy turn: ");
     int rand = random.Next(0, 2);
     if (rand == 0)
@@ -105,6 +100,8 @@ while (!activePlayer.IsDead && !activeEnemy.IsDead)
 
     if (activePlayer.IsDead || activeEnemy.IsDead) break;
 }
+
+//after combat is over
 Console.WriteLine("Game will close.");
 
 
